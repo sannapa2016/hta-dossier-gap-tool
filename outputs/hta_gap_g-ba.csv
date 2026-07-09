@@ -1,0 +1,12 @@
+code,domain,description,mandatory,weight,status,quality,weighted_score,critical,criticality,notes
+C1,clinical,Phase III RCT versus G-BA defined gAV (appropriate comparator),True,1.0,available,0.95,0.95,False,OK,Phase III APEX trial vs SOC — fully powered pre-specified endpoints
+C2,clinical,Overall survival as primary or key secondary endpoint,True,0.95,partial,0.7,0.332,True,CRITICAL,OS data immature at data cut. PFS data mature and significant.
+C3,clinical,"Morbidity endpoints (response rate, PFS)",True,0.85,available,0.9,0.765,False,OK,EQ-5D-5L collected at all timepoints. Mapped to 3L for UK tariff.
+C4,clinical,Safety and adverse event comparative data vs gAV,True,0.9,available,0.85,0.765,False,OK,Pre-specified subgroup analyses by line of therapy available in CSR.
+C5,clinical,Health-related QoL with validated instrument,True,0.85,partial,0.6,0.255,True,CRITICAL,NMA in progress. Two indirect treatment nodes missing.
+C6,clinical,Subgroup data per SmPC approved indication,False,0.75,unavailable,0.0,0.0,False,SUPPORTIVE GAP,Long-term extension study not yet initiated.
+C7,clinical,Patient-reported outcomes,False,0.7,available,0.8,0.56,False,OK,FACT-G patient-reported outcomes. Significant improvement vs comparator.
+E1,economic,Cost data for price negotiation (not ICER-based),False,0.6,available,0.88,0.528,False,OK,UK cost-effectiveness model complete. Base case ICER GBP 24500 per QALY.
+EP1,epidemiological,Patient population size in Germany,True,0.8,available,0.9,0.72,False,OK,CRUK incidence and prevalence data. Cancer Research UK 2024 statistics.
+EP2,epidemiological,Current treatment landscape in Germany,True,0.8,available,0.95,0.76,False,OK,Unmet need documented from NICE scope letter.
+R1,rwe,German claims or registry data,False,0.65,partial,0.55,0.179,False,OK,SACT database analysis planned. UK Biobank linkage in scoping phase.
