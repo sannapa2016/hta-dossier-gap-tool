@@ -131,7 +131,7 @@ def build_gba_requirements() -> List[HTARequirement]:
             "Safety and adverse event comparative data vs gAV",
             mandatory=True,  weight=0.90),
         HTARequirement("C5", "clinical",
-            "Health-related QoL with validated instrument",
+            "Health-related QoL — SF-36 for Germany, EQ-5D for EU submissions",
             mandatory=True,  weight=0.85),
         HTARequirement("C6", "clinical",
             "Subgroup data per SmPC approved indication",
@@ -151,6 +151,9 @@ def build_gba_requirements() -> List[HTARequirement]:
         HTARequirement("R1", "rwe",
             "German claims or registry data",
             mandatory=False, weight=0.65),
+        HTARequirement("R2", "rwe",
+            "Literature search less than 3 months old at submission date",
+            mandatory=True, weight=0.70),
     ]
 
 
